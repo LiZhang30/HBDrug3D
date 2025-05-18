@@ -1,4 +1,4 @@
-# TarDrug3D
+# HBDrug3D
 
 1. Zinc Dataset
 # Data Splits:
