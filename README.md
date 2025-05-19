@@ -12,7 +12,7 @@ PDC:
 This dataset includes the following atom types:
 C, O, N, F, S, Cl, Br, I, and P.
 
-## Data Splits:
+## Data splits:
 Training: 5,447 Protac examples + 214 ADC examples
 Validation: 100 examples (80 Protac + 20 ADC)
 Test: 100 examples (80 Protac + 20 ADC)
@@ -25,7 +25,7 @@ Within each split, subgroups for each component type:
 
 ---
 
-## Data Structure (Each Molecule Entry)
+## Data structure (each molecule entry)
 
 Each entry in the HDF5 file represents a unique molecule and contains the following datasets:
 
