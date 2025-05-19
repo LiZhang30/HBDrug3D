@@ -1,7 +1,7 @@
 # HBDrug3D
 
 1. Zinc Dataset
-# Data Splits:
+## Data Splits:
 Training: 438,610 examples
 Validation: 400 examples
 Test: 400 examples
