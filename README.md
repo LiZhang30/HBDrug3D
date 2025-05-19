@@ -51,4 +51,6 @@ anchors: A boolean array of length N, where each entry indicates whether the ato
 
 ---
 
+## Evaluation metrics:
+
 ## Implementation baselines:
