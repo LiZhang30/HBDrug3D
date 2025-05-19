@@ -1,9 +1,9 @@
 # HBDrug3D
 
-## Data Splits:
-
 ## Molecule Type:
-PROTAC: 5,607,    ADC: 254    PDC: 
+PROTAC: 5,607    
+ADC: 254    
+PDC: 
 
 ## Data Splits:
 Training: 5,447 Protac examples + 214 ADC examples
