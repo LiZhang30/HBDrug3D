@@ -4,7 +4,9 @@ Descriptions:
 ## Molecular type, number, and atom type:
 
 PROTAC: 5,607    
+
 ADC: 254
+
 PDC: 
 
 This dataset includes the following atom types:
