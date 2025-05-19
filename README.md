@@ -1,20 +1,11 @@
 # HBDrug3D
 
-1. Zinc Dataset
 ## Data Splits:
-Training: 438,610 examples
-Validation: 400 examples
-Test: 400 examples
-# Atom Types: This dataset includes the following atom types:
-C, O, N, F, S, Cl, Br, and I.
-# File Structure: The Zinc dataset is stored in HDF5 format, organized into three main groups:
-'train', 'val', and 'test', each containing data entries for the respective split.
 
-2. tarDrug Dataset
-# Components:
-Protac: 5,607 examples
-ADC: 254 examples
-# Data Splits:
+## Molecule Type:
+PROTAC: 5,607,    ADC: 254    PDC: 
+
+## Data Splits:
 Training: 5,447 Protac examples + 214 ADC examples
 Validation: 100 examples (80 Protac + 20 ADC)
 Test: 100 examples (80 Protac + 20 ADC)
