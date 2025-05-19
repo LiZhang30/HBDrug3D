@@ -1,5 +1,5 @@
 # HBDrug3D
-Descriptions:
+Descriptions: A Dataset and Benchmark for AI-Driven Heterobifunctional Molecule Design 
 
 ## Molecular type, number, and atom type:
 
