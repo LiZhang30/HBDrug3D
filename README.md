@@ -1,7 +1,7 @@
 # HBDrug3D
 Descriptions:
 
-## Molecular Type, number, and atom type:
+## Molecular type, number, and atom type:
 
 PROTAC: 5,607    
 ADC: 254
