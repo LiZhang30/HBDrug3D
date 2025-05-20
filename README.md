@@ -1,3 +1,9 @@
+<p align="center">
+    <img src="https://raw.githubusercontent.com/LiZhang30/HBDrug3D/main/images/cover.png" alt="Cover" width="40%" />
+    <br/>
+</p>
+
+
 # HBDrug3D
 HBDrug3D: A Dataset and Benchmark for AI-Driven Heterobifunctional Molecule Design
 
