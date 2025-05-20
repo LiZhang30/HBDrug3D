@@ -69,22 +69,16 @@ cd ..
 
 ## Dataset and Benchmark
 
-### Molecular types:
+Summary
 
-_PROTAC_: 5,607; _ADC_: 254; _PDC_: 426
-This dataset includes these atom types: C, O, N, F, S, Cl, Br, I, and P.
+### Dataset:
 
-#### Data splits:
-Training: 5,447 Protac examples + 214 ADC examples
-Validation: 100 examples (80 Protac + 20 ADC)
-Test: 100 examples (80 Protac + 20 ADC)
+File Structure: The tarDrug dataset is stored in HDF5 format, organized with three subsets:
 
-File Structure: The tarDrug dataset is stored in HDF5 format, organized with the following hierarchy:
-
-Top-level groups for each data split: 'train', 'val', and 'test'.
-Within each split, subgroups for each component type:
-'train/protac', 'train/adc', and similarly for the validation and test splits, allowing for organized access to Protac and ADC data separately within each split.
-
+Molecule: _PROTAC_: 5,607; _ADC_: 254; _PDC_: 426
+Atoms: This dataset includes these atom types: C, O, N, F, S, Cl, Br, I, and P.
+Splits: PROTACs (28,170/400/400), ADCs(2,981/100/100), and PDCs (25,873/400/400).
+from .txt files to get indxs in protac.h5 
 
 
 ### Data structure (each molecule entry)
