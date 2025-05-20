@@ -6,11 +6,12 @@
 <a href="https://pytorch.org/get-started/locally/"><img alt="PyTorch" src="https://img.shields.io/badge/PyTorch-ee4c2c?logo=pytorch&logoColor=white"></a>
 </p>
 
-_HBDrug3D_, the first benchmark dataset for heterobifunctional drug linker design.
+_HBDrug3D_, the first benchmark dataset for accerating linker-based heterobifunctional drug linker design.
 
 ## Introduction
 
-This is the official code repository of the paper 'CBGBench: Fill in the Blank of Protein-Molecule Binding Graph', which aims to unify target-aware molecule design with single code implementation. Until now, we have included 7 methods as shown below:
+This is the official code repository for the paper 'HBDrug3D: A Dataset and Benchmark for AI-Driven Heterobifunctional Molecule Design', which aims to accelerate linker-based heterobifunctional drug development. Currently, the dataset covers three types of heterobifunctional molecules, as listed below:
+
 | Molecule | Paper link | Data platform |
 |------------|---------------------------------------------|-------------------------------------------|
 | PROTAC | https://doi.org/10.1093/nar/gkae768 | http://cadd.zju.edu.cn/protacdb/ |
