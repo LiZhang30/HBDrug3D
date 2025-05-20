@@ -1,7 +1,7 @@
 # HBDrug3D
 HBDrug3D: A Dataset and Benchmark for AI-Driven Heterobifunctional Molecule Design
 
-<img src="https://raw.githubusercontent.com/LiZhang30/HBDrug3D/main/images/cover.png" alt="Cover" width="60%" />
+<img src="https://raw.githubusercontent.com/LiZhang30/HBDrug3D/main/images/cover.png" alt="Cover" width="40%" />
 
 ## Molecular type, number, and atom type:
 
