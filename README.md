@@ -26,10 +26,10 @@ These models are initially established for `de novo` molecule generation, and we
 This is the official code repository of the paper 'CBGBench: Fill in the Blank of Protein-Molecule Binding Graph', which aims to unify target-aware molecule design with single code implementation. Until now, we have included 7 methods as shown below:
 | Model | Paper link | Github |
 |------------|---------------------------------------------|-------------------------------------------|
-| DeLinker | https://arxiv.org/abs/2205.07249 | https://github.com/oxpig/DeLinker |
-| 3DLinker | https://arxiv.org/abs/2204.09410 | https://github.com/YinanHuang/3DLinker |
-| DiffLinker | https://arxiv.org/abs/2210.13695 | https://github.com/igashov/DiffLinker |
-| LinkerNet | https://arxiv.org/abs/2211.11214 | https://github.com/guanjq/LinkerNet |
+| DeLinker | https://pubs.acs.org/doi/10.1021/acs.jcim.9b01120 | https://github.com/oxpig/DeLinker |
+| 3DLinker | https://arxiv.org/abs/2205.07309 | https://github.com/YinanHuang/3DLinker |
+| DiffLinker | https://doi.org/10.1038/s42256-024-00815-9 | https://github.com/igashov/DiffLinker |
+| LinkerNet | https://openreview.net/forum?id=6EaLIw3W7c | https://github.com/guanjq/LinkerNet |
 
 
 ## Molecular type, number, and atom type:
