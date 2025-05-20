@@ -74,6 +74,7 @@ Summary
 ### Dataset:
 
 File Structure: The HBDrug3D dataset is stored in HDF5 format, organized with three subsets:
+form protac.h5, adc.h5, pdc.h5
 
 Molecule: _PROTAC_: 5,607; _ADC_: 254; _PDC_: 426
 Atoms: This dataset includes these atom types: C, O, N, F, S, Cl, Br, I, and P.
