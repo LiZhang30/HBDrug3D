@@ -1,4 +1,4 @@
-![image](https://github.com/user-attachments/assets/1bcb162a-6db4-4030-8da2-bc7a12dab5b5)<p align="center">
+<p align="center">
     <img src="https://raw.githubusercontent.com/LiZhang30/HBDrug3D/main/images/logo.svg" alt="log" width="60%" />
     <br/>
 </p>
