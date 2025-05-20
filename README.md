@@ -8,8 +8,7 @@
 
 _HBDrug3D_: A Dataset and Benchmark for AI-Driven Heterobifunctional Molecule Design.
 
-# HBDrug3D
-HBDrug3D: A Dataset and Benchmark for AI-Driven Heterobifunctional Molecule Design
+## Introduction
 
 <img src="https://raw.githubusercontent.com/LiZhang30/HBDrug3D/main/images/Figure 1.png" alt="Cover" width="40%" />
 
