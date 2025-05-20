@@ -34,7 +34,7 @@ Four state-of-the-art linker design models are benchmarked on the HBDrug3D datas
 
 ## Installation
 
-### Create environment with basic packages.
+### Create environment with basic packages
 
 ```
 conda env create -f environment.yml
@@ -69,16 +69,13 @@ cd ..
 
 ## Dataset and Benchmark
 
-### Molecular type, number, and atom type:
 
-PROTAC: 5,607    
 
-ADC: 254
 
-PDC: 
+### Molecular types:
 
-This dataset includes the following atom types:
-C, O, N, F, S, Cl, Br, I, and P.
+_PROTAC_: 5,607; _ADC_: 254; _PDC_: 426
+This dataset includes these atom types: C, O, N, F, S, Cl, Br, I, and P.
 
 #### Data splits:
 Training: 5,447 Protac examples + 214 ADC examples
