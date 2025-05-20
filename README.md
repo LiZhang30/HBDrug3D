@@ -31,6 +31,41 @@ This is the official code repository of the paper 'CBGBench: Fill in the Blank o
 | DiffLinker | https://doi.org/10.1038/s42256-024-00815-9 | https://github.com/igashov/DiffLinker |
 | LinkerNet | https://openreview.net/forum?id=6EaLIw3W7c | https://github.com/guanjq/LinkerNet |
 
+## Installation
+
+#### Create environment with basic packages.
+
+```
+conda env create -f environment.yml
+conda activate cbgbench
+```
+
+#### Install pytorch and torch_geometric
+
+```
+conda install pytorch==2.0.1 torchvision==0.15.2 torchaudio==2.0.2 pytorch-cuda=11.8 -c pytorch -c nvidia
+conda install pyg pytorch-scatter pytorch-cluster -c pyg
+```
+
+#### Install tools for chemistry
+
+```
+# install rdkit, efgs, obabel, etc.
+pip install --use-pep517 EFGs
+pip install biopython
+pip install lxml
+conda install rdkit openbabel tensorboard tqdm pyyaml easydict python-lmdb -c conda-forge
+
+# install plip
+mkdir tools
+cd tools
+git clone https://github.com/pharmai/plip.git
+cd plip
+python setup.py install
+alias plip='python plip/plip/plipcmd.py'
+cd ..
+```
+
 
 ## Molecular type, number, and atom type:
 
