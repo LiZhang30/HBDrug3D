@@ -27,10 +27,16 @@ These models are initially established for `de novo` molecule generation, and we
     <br/>
 </p>
 
-
-
-
-
+This is the official code repository of the paper 'CBGBench: Fill in the Blank of Protein-Molecule Binding Graph', which aims to unify target-aware molecule design with single code implementation. Until now, we have included 7 methods as shown below:
+| Model | Paper link | Github |
+|------------|---------------------------------------------|-------------------------------------------|
+| Pocket2Mol | https://arxiv.org/abs/2205.07249 | https://github.com/pengxingang/Pocket2Mol |
+| GraphBP | https://arxiv.org/abs/2204.09410 | https://github.com/divelab/GraphBP |
+| DiffSBDD | https://arxiv.org/abs/2210.13695 | https://github.com/arneschneuing/DiffSBDD |
+| DiffBP | https://arxiv.org/abs/2211.11214 | Here is the official implementation. |
+| TargetDiff | https://arxiv.org/abs/2303.03543 | https://github.com/guanjq/targetdiff |
+| FLAG | https://openreview.net/forum?id=Rq13idF0F73 | https://github.com/zaixizhang/FLAG |
+| D3FG | https://arxiv.org/abs/2306.13769 | Here is the official implementation. |
 
 
 ## Molecular type, number, and atom type:
