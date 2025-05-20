@@ -8,7 +8,7 @@
 
 _HBDrug3D_, the first benchmark dataset for accerating heterobifunctional drug linker design.
 
-#### Introduction
+## Introduction
 
 This is the official code repository for the paper 'HBDrug3D: A Dataset and Benchmark for AI-Driven Heterobifunctional Molecule Design', which aims to accelerate heterobifunctional drug discovery. Until now, the dataset covers three types of heterobifunctional molecules, as listed below:
 
@@ -67,8 +67,9 @@ alias plip='python plip/plip/plipcmd.py'
 cd ..
 ```
 
+## Dataset and Benchmark
 
-## Molecular type, number, and atom type:
+#### Molecular type, number, and atom type:
 
 PROTAC: 5,607    
 
@@ -79,7 +80,7 @@ PDC:
 This dataset includes the following atom types:
 C, O, N, F, S, Cl, Br, I, and P.
 
-## Data splits:
+#### Data splits:
 Training: 5,447 Protac examples + 214 ADC examples
 Validation: 100 examples (80 Protac + 20 ADC)
 Test: 100 examples (80 Protac + 20 ADC)
@@ -92,7 +93,7 @@ Within each split, subgroups for each component type:
 
 
 
-## Data structure (each molecule entry)
+#### Data structure (each molecule entry)
 
 Each entry in the HDF5 file represents a unique molecule and contains the following datasets:
 ```
@@ -108,6 +109,6 @@ bond: Bond information for the molecule, stored as an array of tuples with each 
 anchors: A boolean array of length N, where each entry indicates whether the atom acts as an anchor point connecting the linker to one or both fragments (True if the atom is an anchor, False otherwise).
 ```
 
-## Evaluation metrics:
+#### Evaluation metrics:
 
-## Implementation baselines:
+#### Implementation baselines:
