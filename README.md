@@ -1,4 +1,4 @@
-<p align="center">
+![image](https://github.com/user-attachments/assets/1bcb162a-6db4-4030-8da2-bc7a12dab5b5)<p align="center">
     <img src="https://raw.githubusercontent.com/LiZhang30/HBDrug3D/main/images/logo.svg" alt="log" width="60%" />
     <br/>
 </p>
@@ -24,7 +24,7 @@ It contains `6,279 heterobifunctional molecules` and `5458,824 conformations`, s
     <br/>
 </p>
 
-This is the official code repository of the paper 'CBGBench: Fill in the Blank of Protein-Molecule Binding Graph', which aims to unify target-aware molecule design with single code implementation. Until now, we have included 7 methods as shown below:
+Four state-of-the-art linker design models are benchmarked on the HBDrug3D dataset. The baselines are listed below.
 | Model | Paper link | Github |
 |------------|---------------------------------------------|-------------------------------------------|
 | DeLinker | https://pubs.acs.org/doi/10.1021/acs.jcim.9b01120 | https://github.com/oxpig/DeLinker |
