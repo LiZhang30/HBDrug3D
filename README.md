@@ -34,21 +34,21 @@ Four state-of-the-art linker design models are benchmarked on the HBDrug3D datas
 
 ## Installation
 
-#### Create environment with basic packages.
+### Create environment with basic packages.
 
 ```
 conda env create -f environment.yml
 conda activate cbgbench
 ```
 
-#### Install pytorch and torch_geometric
+### Install pytorch and torch_geometric
 
 ```
 conda install pytorch==2.0.1 torchvision==0.15.2 torchaudio==2.0.2 pytorch-cuda=11.8 -c pytorch -c nvidia
 conda install pyg pytorch-scatter pytorch-cluster -c pyg
 ```
 
-#### Install tools for chemistry
+### Install tools for chemistry
 
 ```
 # install rdkit, efgs, obabel, etc.
@@ -69,7 +69,7 @@ cd ..
 
 ## Dataset and Benchmark
 
-#### Molecular type, number, and atom type:
+### Molecular type, number, and atom type:
 
 PROTAC: 5,607    
 
@@ -93,7 +93,7 @@ Within each split, subgroups for each component type:
 
 
 
-#### Data structure (each molecule entry)
+### Data structure (each molecule entry)
 
 Each entry in the HDF5 file represents a unique molecule and contains the following datasets:
 ```
@@ -109,6 +109,6 @@ bond: Bond information for the molecule, stored as an array of tuples with each 
 anchors: A boolean array of length N, where each entry indicates whether the atom acts as an anchor point connecting the linker to one or both fragments (True if the atom is an anchor, False otherwise).
 ```
 
-#### Evaluation metrics:
+### Evaluation metrics:
 
-#### Implementation baselines:
+### Implementation baselines:
