@@ -21,10 +21,17 @@ This is the official code repository of the paper 'CBGBench: Fill in the Blank o
 | FLAG | https://openreview.net/forum?id=Rq13idF0F73 | https://github.com/zaixizhang/FLAG |
 | D3FG | https://arxiv.org/abs/2306.13769 | Here is the official implementation. |
 
+These models are initially established for `de novo` molecule generation, and we extend more tasks including `linker design`, `fragment growing`, `scaffold hopping`, and `side chain decoration`.
+<p align="center">
+    <img src="https://raw.githubusercontent.com/LiZhang30/HBDrug3D/main/images/Figure 1.png" alt="Cover" width="40%" />
+    <br/>
+</p>
 
 
 
-<img src="https://raw.githubusercontent.com/LiZhang30/HBDrug3D/main/images/Figure 1.png" alt="Cover" width="40%" />
+
+
+
 
 ## Molecular type, number, and atom type:
 
