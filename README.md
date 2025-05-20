@@ -11,15 +11,11 @@ _HBDrug3D_, the first benchmark dataset for heterobifunctional drug linker desig
 ## Introduction
 
 This is the official code repository of the paper 'CBGBench: Fill in the Blank of Protein-Molecule Binding Graph', which aims to unify target-aware molecule design with single code implementation. Until now, we have included 7 methods as shown below:
-| Molecule | Paper link | Data Platform |
+| Molecule | Paper link | Data platform |
 |------------|---------------------------------------------|-------------------------------------------|
-| Pocket2Mol | https://arxiv.org/abs/2205.07249 | https://github.com/pengxingang/Pocket2Mol |
-| GraphBP | https://arxiv.org/abs/2204.09410 | https://github.com/divelab/GraphBP |
-| DiffSBDD | https://arxiv.org/abs/2210.13695 | https://github.com/arneschneuing/DiffSBDD |
-| DiffBP | https://arxiv.org/abs/2211.11214 | Here is the official implementation. |
-| TargetDiff | https://arxiv.org/abs/2303.03543 | https://github.com/guanjq/targetdiff |
-| FLAG | https://openreview.net/forum?id=Rq13idF0F73 | https://github.com/zaixizhang/FLAG |
-| D3FG | https://arxiv.org/abs/2306.13769 | Here is the official implementation. |
+| PROTAC | https://arxiv.org/abs/2205.07249 | https://github.com/pengxingang/Pocket2Mol |
+| ADC | https://arxiv.org/abs/2204.09410 | https://github.com/divelab/GraphBP |
+| PDC | https://arxiv.org/abs/2210.13695 | https://github.com/arneschneuing/DiffSBDD |
 
 These models are initially established for `de novo` molecule generation, and we extend more tasks including `linker design`, `fragment growing`, `scaffold hopping`, and `side chain decoration`.
 <p align="center">
@@ -30,13 +26,10 @@ These models are initially established for `de novo` molecule generation, and we
 This is the official code repository of the paper 'CBGBench: Fill in the Blank of Protein-Molecule Binding Graph', which aims to unify target-aware molecule design with single code implementation. Until now, we have included 7 methods as shown below:
 | Model | Paper link | Github |
 |------------|---------------------------------------------|-------------------------------------------|
-| Pocket2Mol | https://arxiv.org/abs/2205.07249 | https://github.com/pengxingang/Pocket2Mol |
-| GraphBP | https://arxiv.org/abs/2204.09410 | https://github.com/divelab/GraphBP |
-| DiffSBDD | https://arxiv.org/abs/2210.13695 | https://github.com/arneschneuing/DiffSBDD |
-| DiffBP | https://arxiv.org/abs/2211.11214 | Here is the official implementation. |
-| TargetDiff | https://arxiv.org/abs/2303.03543 | https://github.com/guanjq/targetdiff |
-| FLAG | https://openreview.net/forum?id=Rq13idF0F73 | https://github.com/zaixizhang/FLAG |
-| D3FG | https://arxiv.org/abs/2306.13769 | Here is the official implementation. |
+| DeLinker | https://arxiv.org/abs/2205.07249 | https://github.com/oxpig/DeLinker |
+| 3DLinker | https://arxiv.org/abs/2204.09410 | https://github.com/YinanHuang/3DLinker |
+| DiffLinker | https://arxiv.org/abs/2210.13695 | https://github.com/igashov/DiffLinker |
+| LinkerNet | https://arxiv.org/abs/2211.11214 | https://github.com/guanjq/LinkerNet |
 
 
 ## Molecular type, number, and atom type:
