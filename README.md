@@ -11,7 +11,7 @@ _HBDrug3D_, the first benchmark dataset for heterobifunctional drug linker desig
 ## Introduction
 
 This is the official code repository of the paper 'CBGBench: Fill in the Blank of Protein-Molecule Binding Graph', which aims to unify target-aware molecule design with single code implementation. Until now, we have included 7 methods as shown below:
-| Model | Paper link | Github |
+| Molecule | Paper link | Data Platform |
 |------------|---------------------------------------------|-------------------------------------------|
 | Pocket2Mol | https://arxiv.org/abs/2205.07249 | https://github.com/pengxingang/Pocket2Mol |
 | GraphBP | https://arxiv.org/abs/2204.09410 | https://github.com/divelab/GraphBP |
