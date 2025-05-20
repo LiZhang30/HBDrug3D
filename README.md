@@ -10,7 +10,7 @@ _HBDrug3D_, the first benchmark dataset for accerating heterobifunctional drug l
 
 ## Introduction
 
-This is the official code repository for the paper 'HBDrug3D: A Dataset and Benchmark for AI-Driven Heterobifunctional Molecule Design', which aims to accelerate linker-based heterobifunctional drug discovery. Currently, the dataset covers three types of heterobifunctional molecules, as listed below:
+This is the official code repository for the paper 'HBDrug3D: A Dataset and Benchmark for AI-Driven Heterobifunctional Molecule Design', which aims to accelerate heterobifunctional drug discovery. Currently, the dataset covers three types of heterobifunctional molecules, as listed below:
 
 | Molecule | Paper link | Data platform |
 |------------|---------------------------------------------|-------------------------------------------|
