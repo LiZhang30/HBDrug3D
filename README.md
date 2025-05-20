@@ -69,9 +69,6 @@ cd ..
 
 ## Dataset and Benchmark
 
-
-
-
 ### Molecular types:
 
 _PROTAC_: 5,607; _ADC_: 254; _PDC_: 426
