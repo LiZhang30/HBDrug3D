@@ -1,5 +1,5 @@
 <p align="center">
-    <img src="https://raw.githubusercontent.com/LiZhang30/HBDrug3D/main/images/logo.png" alt="log0" width="60%" />
+    <img src="https://raw.githubusercontent.com/LiZhang30/HBDrug3D/main/images/logo.svg" alt="log0" width="60%" />
     <br/>
 </p>
 
