@@ -6,6 +6,7 @@
 <a href="https://pytorch.org/get-started/locally/"><img alt="PyTorch" src="https://img.shields.io/badge/PyTorch-ee4c2c?logo=pytorch&logoColor=white"></a>
 </p>
 
+*HBDrug3D: A Dataset and Benchmark for AI-Driven Heterobifunctional Molecule Design.
 
 # HBDrug3D
 HBDrug3D: A Dataset and Benchmark for AI-Driven Heterobifunctional Molecule Design
