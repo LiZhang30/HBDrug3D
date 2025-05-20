@@ -208,8 +208,6 @@ if __name__ == "__main__":
     parser.add_argument('--dest', type=str, required=True)
     args = parser.parse_args()
 
-    # example for run: python filter_rawdata.py --raw_path TarDrug3D/PROTAC-DB-1.xlsx --dest IndexFile/protac.xlsx
-    # example for run: python filter_rawdata.py --raw_path TarDrug3D/ADCdb-1.xlsx --dest IndexFile/adc.xlsx
     if args.dataset == 'protac':
         split_protac(args.raw_path, args.dest)
     elif args.dataset == 'adc':
