@@ -13,9 +13,9 @@ _HBDrug3D_, the first benchmark dataset for heterobifunctional drug linker desig
 This is the official code repository of the paper 'CBGBench: Fill in the Blank of Protein-Molecule Binding Graph', which aims to unify target-aware molecule design with single code implementation. Until now, we have included 7 methods as shown below:
 | Molecule | Paper link | Data platform |
 |------------|---------------------------------------------|-------------------------------------------|
-| PROTAC | https://arxiv.org/abs/2205.07249 | http://cadd.zju.edu.cn/protacdb/ |
-| ADC | https://arxiv.org/abs/2204.09410 | https://adcdb.idrblab.net/ |
-| PDC | https://arxiv.org/abs/2210.13695 | https://pdcdb.idrblab.net/ |
+| PROTAC | https://doi.org/10.1093/nar/gkae768 | http://cadd.zju.edu.cn/protacdb/ |
+| ADC | https://doi.org/10.1093/nar/gkad831 | https://adcdb.idrblab.net/ |
+| PDC | https://doi.org/10.1093/nar/gkae859 | https://pdcdb.idrblab.net/ |
 
 These models are initially established for `de novo` molecule generation, and we extend more tasks including `linker design`, `fragment growing`, `scaffold hopping`, and `side chain decoration`.
 <p align="center">
