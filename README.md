@@ -23,7 +23,7 @@ This is the official code repository of the paper 'CBGBench: Fill in the Blank o
 
 These models are initially established for `de novo` molecule generation, and we extend more tasks including `linker design`, `fragment growing`, `scaffold hopping`, and `side chain decoration`.
 <p align="center">
-    <img src="https://raw.githubusercontent.com/LiZhang30/HBDrug3D/main/images/Figure 1.png" alt="Cover" width="40%" />
+    <img src="https://raw.githubusercontent.com/LiZhang30/HBDrug3D/main/images/Figure 1.png" alt="Cover" width="80%" />
     <br/>
 </p>
 
