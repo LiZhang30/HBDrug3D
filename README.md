@@ -18,7 +18,7 @@ This is the official code repository for the paper 'HBDrug3D: A Dataset and Benc
 | ADC | https://doi.org/10.1093/nar/gkad831 | https://adcdb.idrblab.net/ |
 | PDC | https://doi.org/10.1093/nar/gkae859 | https://pdcdb.idrblab.net/ |
 
-These models are initially established for `de novo` molecule generation, and we extend more tasks including `linker design`, `fragment growing`, `scaffold hopping`, and `side chain decoration`.
+It contains `6,279 heterobifunctional molecules` and `5458,824 conformations`, spanning three druggable mechanisms，as shown below.
 <p align="center">
     <img src="https://raw.githubusercontent.com/LiZhang30/HBDrug3D/main/images/Figure 1.png" alt="Cover" width="80%" />
     <br/>
