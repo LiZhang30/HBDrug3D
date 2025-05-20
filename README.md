@@ -89,16 +89,17 @@ Top-level groups for each data split: 'train', 'val', and 'test'.
 Within each split, subgroups for each component type:
 'train/protac', 'train/adc', and similarly for the validation and test splits, allowing for organized access to Protac and ADC data separately within each split.
 
----
+
 
 ## Data structure (each molecule entry)
 
 Each entry in the HDF5 file represents a unique molecule and contains the following datasets:
-
+```
 id: A unique identifier for the molecule entry.
-
+```
+```
 smiles: A list of SMILES strings for different parts of the molecule, formatted as [whole_smi, frag1_smi, linker_smi, frag2_smi].
-
+```
 pos: Atom positions for the molecule, stored as a [N, 3] array, where N is the number of atoms. Each entry provides the 3D coordinates of an atom.
 
 atoms_atomic_numbers: Atom types stored as atomic numbers with shape [N], where each value represents the atomic number of the corresponding atom.
