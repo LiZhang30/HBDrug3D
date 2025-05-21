@@ -67,7 +67,10 @@ alias plip='python plip/plip/plipcmd.py'
 cd ..
 ```
 
-## Dataset and Benchmark
+## Prepare Dataset
+
+
+## Dataset
 
 Summary
 
@@ -98,6 +101,7 @@ bond: Bond information for the molecule, stored as an array of tuples with each 
 anchors: A boolean array of length N, where each entry indicates whether the atom acts as an anchor point connecting the linker to one or both fragments (True if the atom is an anchor, False otherwise).
 ```
 
+## Benchmark
 ### Evaluation metrics:
 
 ### Implementation baselines:
