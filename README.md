@@ -69,6 +69,8 @@ cd ..
 
 ## Prepare Dataset
 
+[schrodinger](https://www.schrodinger.com/platform/products/confgen/)
+
 [HBDrug3D.h5](https://drive.google.com/drive/folders/1XdgJPCcVfQfMFQN8YnqXITgvpxl15A2v)
 
 ## Dataset
