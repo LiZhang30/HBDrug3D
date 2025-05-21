@@ -24,7 +24,7 @@ It contains `6,279 heterobifunctional molecules` and `5458,824 conformations`, s
     <br/>
 </p>
 
-Four state-of-the-art linker design models are benchmarked on the HBDrug3D dataset. The baselines are listed below.
+Four state-of-the-art linker design models are benchmarked on the HBDrug3D dataset, as listed below.
 | Model | Paper link | Github |
 |------------|---------------------------------------------|-------------------------------------------|
 | DeLinker | https://pubs.acs.org/doi/10.1021/acs.jcim.9b01120 | https://github.com/oxpig/DeLinker |
