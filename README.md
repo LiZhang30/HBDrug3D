@@ -144,7 +144,7 @@ Each entry in the HDF5 file represents a unique sample, and the details of each 
 
 ### Implementation baselines:
 
-***DeLinker*** We utilized the original source code ([DeLinker](https://github.com/oxpig/DeLinker)) under TensorFlow 1.10 framework, maintaining the same framework and hyperparameter configurations as the published work.
+***DeLinker*** ->  We utilized the original source code ([DeLinker](https://github.com/oxpig/DeLinker)) under TensorFlow 1.10 framework, maintaining the same framework and hyperparameter configurations as the published work.
 
 \textbf{3DLinker} We utilized the original source code (\url{https://github.com/YinanHuang/3DLinker}) under PyTorch 1.11.0 framework, maintaining the same framework and hyperparameter configurations as the published work.
 
