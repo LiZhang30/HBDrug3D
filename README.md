@@ -89,6 +89,7 @@ from .txt files to get indxs in protac.h5
 | Number of molecules | 5,607 | 246 | 426 |
 | Number of entries | 28,970 | 3,181 | 26,673 |
 | Splits(train/val/test) | 28,170/400/400 | 2,981/100/100 | 25,873/400/400 |
+
 ***Note***  ->  This dataset includes these atom types: C, O, N, F, S, Cl, Br, I, and P.
 
 ### Data structure (each molecule entry)
