@@ -10,9 +10,7 @@ _HBDrug3D_, the first benchmark dataset for accerating heterobifunctional drug l
 
 ## Introduction
 
-This is the official code repository for the paper 'HBDrug3D: A Dataset and Benchmark for AI-Driven Heterobifunctional Molecule Design', which aims to accelerate heterobifunctional drug discovery.
-<br/>
-The dataset covers three types of heterobifunctional molecules, as listed below:
+This is the official code repository for the paper 'HBDrug3D: A Dataset and Benchmark for AI-Driven Heterobifunctional Molecule Design', which aims to accelerate heterobifunctional drug discovery. The dataset covers three types of heterobifunctional molecules, as listed below:
 
 | Molecule | Paper link | Data platform |
 |------------|---------------------------------------------|-------------------------------------------|
@@ -72,9 +70,13 @@ cd ..
 ## Prepare Dataset
 
 _Step1_: Directly download the raw data from the data platform or use scripts in the collection directory to obtain the raw data.
+<br/>
 _Step2_: Use filter_rawdata.py in the filter directory to preprocess the raw data.
+<br/>
 _Step3_: First, use [Schrodinger ConfGen](https://www.schrodinger.com/platform/products/confgen/) to generate conformations, then run filter_conformations.py in the filter directory to filter out low-quality conformations.
+<br/>
 _Step4_: Finally, use process_rawdata.py to construct samples and save them in H5 format.
+<br/>
 
 ## Dataset
 [HBDrug3D.h5](https://drive.google.com/drive/folders/1XdgJPCcVfQfMFQN8YnqXITgvpxl15A2v++)
