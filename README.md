@@ -51,20 +51,11 @@ conda install pyg pytorch-scatter pytorch-cluster -c pyg
 ### Install tools for chemistry
 
 ```
-# install rdkit, efgs, obabel, etc.
+# install rdkit, obabel, etc.
 pip install --use-pep517 EFGs
 pip install biopython
 pip install lxml
 conda install rdkit openbabel tensorboard tqdm pyyaml easydict python-lmdb -c conda-forge
-
-# install plip
-mkdir tools
-cd tools
-git clone https://github.com/pharmai/plip.git
-cd plip
-python setup.py install
-alias plip='python plip/plip/plipcmd.py'
-cd ..
 ```
 
 ## Prepare Dataset
