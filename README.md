@@ -118,6 +118,7 @@ Each entry in the HDF5 file represents a unique sample, and the details of each 
 ## Benchmark
 
 ### Evaluation metrics:
+
 ->  ***Validity*** (chemical soundness)
 <br/>
 ->  ***Novelty*** (non-overlap with training samples)
@@ -130,6 +131,15 @@ Each entry in the HDF5 file represents a unique sample, and the details of each 
 
 ### Evaluation steps:
 
+***Step1 (Preprocessing)***  ->  
+<br/>
 
+***Step2 (Sampling)***  ->
+<br/>
+
+***Step3 (Reformatting)***  ->
+<br/>
+
+***Step4 (Calculating metrics)***  ->
 
 ### Implementation baselines:
