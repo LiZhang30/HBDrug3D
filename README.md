@@ -91,7 +91,7 @@ HBDrug3D consists of three subsets: PROTAC, ADC, and PDC. The HDF5 file for each
 
 ***Note***  ->  This dataset includes these atom types: C, O, N, F, S, Cl, Br, I, and P.
 
-### Data structure
+### Data structure:
 
 Each entry in the HDF5 file represents a unique sample, and the details of each field are described as follows:
 
