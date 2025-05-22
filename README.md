@@ -118,7 +118,7 @@ Each entry in the HDF5 file represents a unique sample, and the details of each 
 ## Benchmark
 
 ### Evaluation metrics:
-We adopt a comprehensive set of established evaluation metrics from published literatures to ensure objective performance assessment: (i) Three core generation metrics assessing basic molecular properties-structural validity (chemical soundness), novelty (non-overlap with training samples),
-and recovery rate (exact matches with reference structures); (ii) the standardized 2D filtering} protocol, incorporating ring aromaticity (RA) verification and PAINS substructure screening; (iii) DeLinker's SC_RDKit metric for rigorous 3D similarity evaluation through both geometric alignment and chemical feature matching with reference compounds.
+We adopt a comprehensive set of established evaluation metrics to ensure objective performance assessment: (i) Three core generation metrics assessing basic molecular properties-structural validity (chemical soundness), novelty (non-overlap with training samples),
+and recovery rate (exact matches with reference structures); (ii) the standardized 2D filtering protocol, incorporating ring aromaticity (RA) verification and PAINS substructure screening; (iii) DeLinker's SC_RDKit metric for rigorous 3D similarity evaluation through both geometric alignment and chemical feature matching with reference compounds.
 
 ### Implementation baselines:
