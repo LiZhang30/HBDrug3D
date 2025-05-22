@@ -131,16 +131,13 @@ Each entry in the HDF5 file represents a unique sample, and the details of each 
 
 ### Evaluation steps:
 
-***Step1 (Preprocessing)***  ->  
+***Step1 (Preprocessing)***  ->  First, we use preprocess.py in the evaluation directory to generate the files required for step4.
 <br/>
-
-***Step2 (Sampling)***  ->
+***Step2 (Sampling)***  ->  Next, use the trained model to sample linkers for the given fragments, following the sampling logic in sample.py in the evaluation directory.
 <br/>
-
-***Step3 (Reformatting)***  ->
+***Step3 (Reformatting)***  ->  Then, use reformat_obabel.py in the evaluation directory to reformat the sampling results.
 <br/>
-
-***Step4 (Calculating metrics)***  ->
+***Step4 (Calculating metrics)***  ->  Finally, use compute_metrics.py in the evaluation directory to obtain various metrics.
 
 ### Implementation baselines:
 
