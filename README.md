@@ -105,7 +105,7 @@ Each entry in the HDF5 file represents a unique sample, and the details of each 
 <br/>
 ***frag1_idx***  ->  An array containing the indices of atoms that belongs to frag1 within the molecule.
 <br/>
-***frag2_idx***  ->  An array containing the indices of atoms that belongs to frag2.
+***frag2_idx***  ->  An array containing the indices of atoms that belongs to frag2 within the molecule.
 <br/>
 ***linker_idx***  ->  An array of indices for atoms that belongs to the linker part of the molecule.
 <br/>
