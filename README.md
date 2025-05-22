@@ -75,7 +75,7 @@ cd ..
 <br/>
 ***Step3***  ->  First, use [Schrodinger ConfGen](https://www.schrodinger.com/platform/products/confgen/) to generate conformations, then run filter_conformations.py in the filter directory to filter out low-quality conformations.
 <br/>
-***Step4***  ->  Finally, use process_rawdata.py to construct samples and save them in H5 format.
+***Step4***  ->  Finally, use process_rawdata.py to construct samples and save them in HDF5 format.
 <br/>
 
 ## Dataset
