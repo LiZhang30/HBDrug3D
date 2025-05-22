@@ -95,25 +95,25 @@ HBDrug3D consists of three subsets: PROTAC, ADC, and PDC. The HDF5 file for each
 
 Each entry in the HDF5 file represents a unique sample, and the details of each field are described as follows:
 
-***id***  ->  A unique identifier for the entry.
+->  ***id***: A unique identifier for the entry.
 <br/>
-***smiles***  ->  A list of SMILES strings for different parts of the molecule, formatted as [whole_smi, frag1_smi, linker_smi, frag2_smi].
+->  ***smiles***: A list of SMILES strings for different parts of the molecule, formatted as [whole_smi, frag1_smi, linker_smi, frag2_smi].
 <br/>
-***pos***  ->  Atom positions for the molecule, stored as a [N, 3] array, where N is the number of atoms. Each entry provides the 3D coordinates of an atom.
+->  ***pos***: Atom positions for the molecule, stored as a [N, 3] array, where N is the number of atoms. Each entry provides the 3D coordinates of an atom.
 <br/>
-***atoms_atomic_numbers***  ->  Atom types stored as atomic numbers with shape [N], where each value represents the atomic number of the corresponding atom.
+->  ***atoms_atomic_numbers***: Atom types stored as atomic numbers with shape [N], where each value represents the atomic number of the corresponding atom.
 <br/>
-***frag1_idx***  ->  An array containing the indices of atoms that belongs to frag1 within the molecule.
+->  ***frag1_idx***: An array containing the indices of atoms that belongs to frag1 within the molecule.
 <br/>
-***frag2_idx***  ->  An array containing the indices of atoms that belongs to frag2 within the molecule.
+->  ***frag2_idx***: An array containing the indices of atoms that belongs to frag2 within the molecule.
 <br/>
-***linker_idx***  ->  An array of indices for atoms that belongs to the linker part of the molecule.
+->  ***linker_idx***: An array of indices for atoms that belongs to the linker part of the molecule.
 <br/>
-***linker_size***  ->  An integer value indicating the total number of atoms in the linker segment.
+->  ***linker_size***: An integer value indicating the total number of atoms in the linker segment.
 <br/>
-***bond***  ->  Bond information for the molecule, stored as an array of tuples with each tuple in the format (start_idx, end_idx, bond_type), where bond_type could be 'SINGLE', 'DOUBLE', 'TRIPLE', or 'AROMATIC'.
+->  ***bond***: Bond information for the molecule, stored as an array of tuples with each tuple in the format (start_idx, end_idx, bond_type), where bond_type could be 'SINGLE', 'DOUBLE', 'TRIPLE', or 'AROMATIC'.
 <br/>
-***anchors***  ->  A boolean array of length N, where each entry indicates whether the atom acts as an anchor point connecting the linker to one or both fragments (True if the atom is an anchor, False otherwise).
+->  ***anchors***: A boolean array of length N, where each entry indicates whether the atom acts as an anchor point connecting the linker to one or both fragments (True if the atom is an anchor, False otherwise).
 
 ## Benchmark
 
