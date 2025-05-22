@@ -95,7 +95,7 @@ HBDrug3D consists of three subsets: PROTAC, ADC, and PDC. The HDF5 file for each
 
 Each entry in the HDF5 file represents a unique sample, and the details of each field are described as follows:
 
-***id***  ->  A unique identifier for the molecule entry.
+***id***  ->  A unique identifier for the entry.
 <br/>
 ***smiles***  ->  A list of SMILES strings for different parts of the molecule, formatted as [whole_smi, frag1_smi, linker_smi, frag2_smi].
 <br/>
@@ -103,11 +103,11 @@ Each entry in the HDF5 file represents a unique sample, and the details of each 
 <br/>
 ***atoms_atomic_numbers***  ->  Atom types stored as atomic numbers with shape [N], where each value represents the atomic number of the corresponding atom.
 <br/>
-***frag1_idx***  ->  An array containing the indices of atoms that belong to frag1 within the molecule.
+***frag1_idx***  ->  An array containing the indices of atoms that belongs to frag1 within the molecule.
 <br/>
-***frag2_idx***  ->  An array containing the indices of atoms that belong to frag2.
+***frag2_idx***  ->  An array containing the indices of atoms that belongs to frag2.
 <br/>
-***linker_idx***  ->  An array of indices for atoms that belong to the linker part of the molecule.
+***linker_idx***  ->  An array of indices for atoms that belongs to the linker part of the molecule.
 <br/>
 ***linker_size***  ->  An integer value indicating the total number of atoms in the linker segment.
 <br/>
