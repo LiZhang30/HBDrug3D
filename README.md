@@ -80,8 +80,7 @@ cd ..
 
 ## Dataset
 
-[HBDrug3D.h5](https://drive.google.com/drive/folders/1XdgJPCcVfQfMFQN8YnqXITgvpxl15A2v++)
-from .txt files to get indxs in protac.h5 
+HBDrug3D consists of three subsets: PROTAC, ADC, and PDC. The HDF5 file for each subset, along with the corresponding conformations and splits, can be downloaded from [HBDrug3D](https://drive.google.com/drive/folders/1XdgJPCcVfQfMFQN8YnqXITgvpxl15A2v)
 
 | Subset | PROTAC | ADC | PDC |
 |------------|-----------------------------------|-----------------------------------|-----------------------------------|
