@@ -69,13 +69,13 @@ cd ..
 
 ## Prepare Dataset
 
-**Step1**  ->  Directly download the raw data from the data platform or use scripts in the collection directory to obtain the raw data.
+***Step1***  ->  Directly download the raw data from the data platform or use scripts in the collection directory to obtain the raw data.
 <br/>
-_Step2_: Use filter_rawdata.py in the filter directory to preprocess the raw data.
+***Step2***  ->  Use filter_rawdata.py in the filter directory to preprocess the raw data.
 <br/>
-_Step3_: First, use [Schrodinger ConfGen](https://www.schrodinger.com/platform/products/confgen/) to generate conformations, then run filter_conformations.py in the filter directory to filter out low-quality conformations.
+***Step3***  ->  First, use [Schrodinger ConfGen](https://www.schrodinger.com/platform/products/confgen/) to generate conformations, then run filter_conformations.py in the filter directory to filter out low-quality conformations.
 <br/>
-_Step4_: Finally, use process_rawdata.py to construct samples and save them in H5 format.
+***Step4***  ->  Finally, use process_rawdata.py to construct samples and save them in H5 format.
 <br/>
 
 ## Dataset
