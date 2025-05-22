@@ -36,26 +36,10 @@ Four state-of-the-art linker design models are benchmarked on the HBDrug3D datas
 
 ### Create environment with basic packages
 
+You can quickly create a new environment using the method below, or start from scratch, to perform model evaluation.
 ```
-conda env create -f environment.yml
-conda activate cbgbench
-```
-
-### Install pytorch and torch_geometric
-
-```
-conda install pytorch==2.0.1 torchvision==0.15.2 torchaudio==2.0.2 pytorch-cuda=11.8 -c pytorch -c nvidia
-conda install pyg pytorch-scatter pytorch-cluster -c pyg
-```
-
-### Install tools for chemistry
-
-```
-# install rdkit, obabel, etc.
-pip install --use-pep517 EFGs
-pip install biopython
-pip install lxml
-conda install rdkit openbabel tensorboard tqdm pyyaml easydict python-lmdb -c conda-forge
+conda env create -f env.yml
+conda activate HBDrug3D
 ```
 
 ## Prepare Dataset
