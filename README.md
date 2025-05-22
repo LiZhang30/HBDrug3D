@@ -34,7 +34,7 @@ Four state-of-the-art linker design models are benchmarked on the HBDrug3D datas
 
 ## Installation
 
-### Create environment with basic packages
+### Create environment:
 
 You can quickly create a new environment using the method below, or start from scratch, to perform model evaluation.
 ```
