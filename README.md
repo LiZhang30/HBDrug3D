@@ -144,17 +144,10 @@ Each entry in the HDF5 file represents a unique sample, and the details of each 
 
 ### Implementation baselines:
 
-***DeLinker*** ->  We utilized the original source code ([DeLinker](https://github.com/oxpig/DeLinker)) under TensorFlow 1.10 framework, maintaining the same framework and hyperparameter configurations as the published work.
+***DeLinker***  ->  We utilized the original source code ([DeLinker](https://github.com/oxpig/DeLinker)) under TensorFlow 1.10 framework, maintaining the same framework and hyperparameter configurations as the published work.
 
-\textbf{3DLinker} We utilized the original source code (\url{https://github.com/YinanHuang/3DLinker}) under PyTorch 1.11.0 framework, maintaining the same framework and hyperparameter configurations as the published work.
+***3DLinker***  ->  We utilized the original source code ([3DLinker](https://github.com/YinanHuang/3DLinker)) under PyTorch 1.11.0 framework, maintaining the same framework and hyperparameter configurations as the published work.
 
-\textbf{DiffLinker} We implemented DiffLinker using the official source code (\url{https://github.com/igashov/DiffLinker}) with PyTorch 2.0, strictly maintaining the original model architecture and hyperparameters. The only modification involved adjusting the number of training epochs (from 500 to 600) to ensure proper convergence while keeping all other training parameters unchanged (batch size=32, learning rate=1e-4, 1000 diffusion steps). The model was trained on NVIDIA A100 GPUs with mixed-precision acceleration, following the same data preprocessing pipeline as described in the original work.
+***DiffLinker***  ->  We implemented DiffLinker using the official source code ([DiffLinker](https://github.com/igashov/DiffLinker)) with PyTorch 2.0, strictly maintaining the original model architecture and hyperparameters. The only modification involved adjusting the number of training epochs (from 500 to 600) to ensure proper convergence while keeping all other training parameters unchanged (batch size=32, learning rate=1e-4, 1000 diffusion steps). The model was trained on NVIDIA A100 GPUs with mixed-precision acceleration, following the same data preprocessing pipeline as described in the original work.
 
-\textbf{LinkerNet} We faithfully reproduced LinkerNet using the original source code (\url{https://github.com/guanjq/LinkerNet}) implemented in PyTorch 2.5.1, maintaining all published model architectures without modification.
-
-All experiments were carried out using the default configuration (500 diffusion steps, initialized with the provided checkpoints pre-trained on ZINC), executed on NVIDIA RTX 4090 GPUs with full precision floating-point operations with modifications for different training scenarios:
-\begin{itemize}
-    \item For PROTAC training: Batch size set to 4, learning rate of 5e-4 (with cosine decay), initialized with checkpoints pre-trained on ZINC
-    \item For PDC training: Batch size of 4, learning rate of 5e-4 (with cosine decay)
-    \item For ADC training: Batch size reduced to 2, learning rate adjusted to 1e-4 (with cosine decay)
-\end{itemize}
+***LinkerNet***  ->  We faithfully reproduced LinkerNet using the original source code ([LinkerNet](https://github.com/guanjq/LinkerNet)) implemented in PyTorch 2.5.1, maintaining all published model architectures without modification.
