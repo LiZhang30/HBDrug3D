@@ -131,7 +131,7 @@ Each entry in the HDF5 file represents a unique sample, and the details of each 
 
 ### Evaluation steps:
 
-***Step1 (Preprocessing)***  ->  First, we use preprocess.py in the evaluation directory to generate the files required for step4.
+***Step1 (Preprocessing)***  ->  First, use preprocess.py in the evaluation directory to generate the files required for step4.
 <br/>
 ***Step2 (Sampling)***  ->  Next, use the trained model to sample linkers for the given fragments, following the sampling logic in sample.py in the evaluation directory.
 <br/>
