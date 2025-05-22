@@ -69,7 +69,7 @@ cd ..
 
 ## Prepare Dataset
 
-<u>_Step1_<u/>: Directly download the raw data from the data platform or use scripts in the collection directory to obtain the raw data.
+<u>Step1<u/>: Directly download the raw data from the data platform or use scripts in the collection directory to obtain the raw data.
 <br/>
 _Step2_: Use filter_rawdata.py in the filter directory to preprocess the raw data.
 <br/>
