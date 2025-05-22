@@ -79,19 +79,17 @@ cd ..
 <br/>
 
 ## Dataset
+
 [HBDrug3D.h5](https://drive.google.com/drive/folders/1XdgJPCcVfQfMFQN8YnqXITgvpxl15A2v++)
-
-
-### Dataset:
-
-File Structure: The HBDrug3D dataset is stored in HDF5 format, organized with three subsets:
-form protac.h5, adc.h5, pdc.h5
-
-Molecule: _PROTAC_: 5,607; _ADC_: 254; _PDC_: 426
-Atoms: This dataset includes these atom types: C, O, N, F, S, Cl, Br, I, and P.
-Splits: PROTACs (28,170/400/400), ADCs(2,981/100/100), and PDCs (25,873/400/400).
 from .txt files to get indxs in protac.h5 
-
+### Dataset:
+| Subset | PROTAC | ADC | PDC |
+|------------|-----------------------------------|-----------------------------------|-----------------------------------|
+| File | protac.h5 | adc.h5 | pdc.h5 |
+| Number of molecules | 5,607 | 246 | 426 |
+| Number of entries | 28,970 | 3,181 | 26,673 |
+| Splits(train/val/test) | 28,170/400/400 | 2,981/100/100 | 25,873/400/400 |
+***Note***  ->  This dataset includes these atom types: C, O, N, F, S, Cl, Br, I, and P.
 
 ### Data structure (each molecule entry)
 
